@@ -22,7 +22,7 @@ public class OrderApp {
         memberService.join(member);
 
         //주문 하기
-        Order order = orderService.createOrder(memberId,"itemA",10000);
+        Order order = orderService.createOrder(memberId,"itemA",20000);
 
         System.out.println(order);
         System.out.println(order.calculatePrice());
